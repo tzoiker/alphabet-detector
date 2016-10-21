@@ -9,6 +9,9 @@ setup(
   url = 'https://github.com/EliFinkelshteyn/alphabet-detector',
   download_url = 'https://github.com/EliFinkelshteyn/alphabet-detector/tarball/0.0.1', # I'll explain this in a second
   keywords = ['alphabet', 'charset', 'detect', 'islatin'], # arbitrary keywords
+  install_requires = [
+        'enum34'
+  ],
   classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
